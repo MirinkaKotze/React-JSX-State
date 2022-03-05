@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from 'react'
+import Header from './Header'
 import './App.css';
 
-function App() {
+// function App() {
+//   const helloParagraph = React.createElement('p', {}, 'I`m inside the main Header!')
+
+//   return React.createElement('div', {}, 
+//     React.createElement('header', {className:"header__container"}, 
+//       React.createElement('h1', {className:"header"}, 'Hello Header!'),
+//       React.createElement('p', {}, 'I`m inside the header container!')), 
+//     React.createElement('section', {className:"main__container"}, 
+//         React.createElement('h2', {className:"main"}, 'Hello Main!', 
+//           helloParagraph), ), 
+//     React.createElement('footer', {}, React.createElement('h2', {className:"footer"}, 'Hello Footer!')),
+//   )}
+
+// export default App;
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Header />
+  )
 }
 
 export default App;
