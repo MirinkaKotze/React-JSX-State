@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MirinkaKotze/React-JSX-State/static/css/main.9c94d5a2.css",
+    "main.js": "/MirinkaKotze/React-JSX-State/static/js/main.d2719363.js",
+    "index.html": "/MirinkaKotze/React-JSX-State/index.html",
+    "main.9c94d5a2.css.map": "/MirinkaKotze/React-JSX-State/static/css/main.9c94d5a2.css.map",
+    "main.d2719363.js.map": "/MirinkaKotze/React-JSX-State/static/js/main.d2719363.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c94d5a2.css",
+    "static/js/main.d2719363.js"
+  ]
+}
